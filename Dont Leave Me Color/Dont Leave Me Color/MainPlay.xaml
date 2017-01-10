@@ -1,0 +1,93 @@
+﻿<Page
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Dont_Leave_Me_Color"
+      xmlns:ed="http://schemas.microsoft.com/expression/2010/drawing" xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity" xmlns:ei="http://schemas.microsoft.com/expression/2010/interactions" x:Class="Dont_Leave_Me_Color.MainPlay"
+      mc:Ignorable="d" 
+      d:DesignHeight="300" d:DesignWidth="300"
+      Title="MainPlay" Width="1280" Height="720" Loaded="Page_Loaded" KeyDown="Page_KeyDown" Focusable="True" IsHitTestVisible="True" KeyUp="Page_KeyUp">
+    <Page.Resources>
+        <Storyboard x:Key="storyOver">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="gameoverBG">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2" Value="0.7"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="gameOverText">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2" Value="1"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="yourScoreText">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2" Value="1"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="pressAgain">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2" Value="1"/>
+            </DoubleAnimationUsingKeyFrames>
+        </Storyboard>
+    </Page.Resources>
+    <Page.Triggers>
+        <EventTrigger RoutedEvent="FrameworkElement.Loaded"/>
+    </Page.Triggers>
+    <Page.Background>
+        <ImageBrush ImageSource="Pic/Game Page BG.jpg" Stretch="Fill"/>
+    </Page.Background>
+    <Grid>
+        <Canvas Margin="-19.667,0,0,0">
+            <Rectangle Stroke="#FFF1CC01" StrokeThickness="5" Height="612" Canvas.Left="345" Canvas.Top="54" Width="570"/>
+            <Canvas Height="612" Width="567" Canvas.Left="345" Canvas.Top="54">
+                <Grid x:Name="c1" Height="481" Canvas.Left="10" Canvas.Top="10" Width="134" Background="#FFE800FF" Opacity="0"/>
+                <Grid x:Name="c2" Height="481" Canvas.Left="149" Canvas.Top="10" Width="134" Background="#FF00B9D6" Opacity="0"/>
+                <Grid x:Name="c3" Height="481" Canvas.Left="288" Canvas.Top="10" Width="134" Background="#FF00FF46" Opacity="0"/>
+                <Grid x:Name="c4" Height="481" Canvas.Left="427" Canvas.Top="10" Width="134" Background="#FFDCFF00" Opacity="0"/>
+                <Canvas x:Name="tap1" Height="592" Canvas.Left="10" Canvas.Top="10" Width="134">
+                    <Grid x:Name="click1" Height="110" Width="134" Canvas.Top="482" Background="#FFE800FF" Opacity="0.3">
+                        <TextBlock x:Name="D" TextWrapping="Wrap" Text="D" d:LayoutOverrides="Width, Height" FontSize="66.667" TextAlignment="Center" Foreground="White"/>
+                    </Grid>
+                </Canvas>
+                <Canvas x:Name="tap2" Height="592" Canvas.Left="149" Canvas.Top="10" Width="134">
+                    <Grid x:Name="click2" Height="110" Width="134" Canvas.Top="482" Background="#FF00B9D6" Opacity="0.3">
+                        <TextBlock x:Name="F" TextWrapping="Wrap" Text="F" FontSize="66.667" TextAlignment="Center" Foreground="White" d:LayoutOverrides="Width, Height"/>
+                    </Grid>
+                </Canvas>
+                <Canvas x:Name="tap3" Height="592" Canvas.Left="288" Canvas.Top="10" Width="134">
+                    <Grid x:Name="click3" Height="110" Width="134" Canvas.Top="482" Background="#FF00FF46" Opacity="0.3">
+                        <TextBlock x:Name="J" TextWrapping="Wrap" Text="J" FontSize="66.667" TextAlignment="Center" Foreground="White" d:LayoutOverrides="Width, Height"/>
+                    </Grid>
+                </Canvas>
+                <Canvas x:Name="tap4" Height="592" Canvas.Left="427" Canvas.Top="10" Width="134">
+                    <Grid x:Name="click4" Height="110" Width="134" Canvas.Top="482" Background="#FFDCFF00" Opacity="0.3">
+                        <TextBlock x:Name="K" TextWrapping="Wrap" Text="K" FontSize="66.667" TextAlignment="Center" Foreground="White" d:LayoutOverrides="Width, Height"/>
+                    </Grid>
+                </Canvas>
+            </Canvas>
+            <Grid Height="62" Canvas.Left="914" Canvas.Top="62" Width="193" Background="#FFF1CC01">
+                <TextBlock x:Name="levelText" TextWrapping="Wrap" Text="LEVEL: 1" TextAlignment="Center" FontSize="40" FontFamily="Consolas Regular" Margin="0,6,0,4" Foreground="White"/>
+            </Grid>
+            <Grid Height="45.333" Canvas.Left="912" Canvas.Top="148.659" Width="157.667" Background="#FFF1CC01">
+                <TextBlock x:Name="lifeText" TextWrapping="Wrap" Text="LIFE: 5" TextAlignment="Center" FontSize="32" FontFamily="Consolas Regular" Margin="0,4.666,0,5.334" Foreground="White"/>
+            </Grid>
+            <Image x:Name="image" Height="74" Canvas.Left="282" Canvas.Top="380" Width="100" Source="Pic/B1.png"/>
+            <Grid Height="82.5" Width="199.5" Canvas.Left="89.667" Canvas.Top="72.5" Background="#FF5C3B1E">
+                <TextBlock x:Name="scoreText" Text="SCORE: 0" Foreground="White" FontSize="32" TextAlignment="Center" Margin="0,21,0,24" FontFamily="Consolas Regular" TextWrapping="Wrap"/>
+            </Grid>
+            <TextBlock x:Name="dont" Height="71" Canvas.Left="981.167" TextWrapping="Wrap" Text="TextBlock" Canvas.Top="301" Width="250" FontSize="46.667" TextAlignment="Center" Foreground="#FF878787"/>
+            <Image x:Name="image1" Height="50" Width="50" Source="Pic/quote1.png" Canvas.Left="939.167" Canvas.Top="284.5"/>
+            <Image x:Name="image1_Copy" Height="50" Width="50" Source="Pic/quote2.png" Canvas.Left="1215.167" Canvas.Top="284.5"/>
+        </Canvas>
+        <Image x:Name="image_Copy1" Height="74" Width="100" Source="Pic/B2.png" HorizontalAlignment="Left" Margin="42,215,0,0" VerticalAlignment="Top"/>
+        <Image x:Name="image_Copy2" Height="113" Width="127" Source="Pic/B3.png" HorizontalAlignment="Right" Margin="0,152,28,0" VerticalAlignment="Top"/>
+        <Image x:Name="image_Copy3" Height="164" Width="244" Source="Pic/home.png" HorizontalAlignment="Left" Margin="54,0,0,59" VerticalAlignment="Bottom"/>
+        <Image x:Name="image_Copy4" Height="164" Width="127" Source="Pic/Tree.png" HorizontalAlignment="Right" Margin="0,0,208,59" VerticalAlignment="Bottom"/>
+        <Image x:Name="image_Copy5" Height="125" Width="85" Source="Pic/Bike.png" HorizontalAlignment="Right" Margin="0,0,165,59" VerticalAlignment="Bottom"/>
+        <Grid x:Name="gameoverBG" Background="White" Opacity="0"/>
+        <TextBlock x:Name="gameOverText" Margin="289,231,289,0" TextWrapping="Wrap" Text="- GAME OVER -" FontFamily="Consolas Regular" FontSize="96" TextDecorations="{x:Null}" Height="125" VerticalAlignment="Top" Opacity="0"/>
+        <TextBlock x:Name="yourScoreText" Margin="289,347.5,289,316.5" TextWrapping="Wrap" Text="Your Score: " FontFamily="Consolas Regular" FontSize="50.667" TextDecorations="{x:Null}" TextAlignment="Center" Foreground="#FFFF6800" Opacity="0"/>
+        <TextBlock x:Name="pressAgain" Margin="289,0,289,234.5" TextWrapping="Wrap" Text="Press ENTER to Restart" FontFamily="Consolas Regular" FontSize="46.667" TextDecorations="{x:Null}" TextAlignment="Center" Height="56" VerticalAlignment="Bottom" Opacity="0"/>
+        <MediaElement x:Name="soundTap" HorizontalAlignment="Right" Height="114" Margin="0,0,-135,0" VerticalAlignment="Bottom" Width="100" LoadedBehavior="Manual" UnloadedBehavior="Stop" Source="Pic/Sounds/Bell.wav"/>
+        <MediaElement x:Name="music" HorizontalAlignment="Right" Height="114" Margin="0,0,-270,0" VerticalAlignment="Bottom" Width="110" Source="Pic/Sounds/Pangya Music.mp3" LoadedBehavior="Manual" UnloadedBehavior="Stop"/>
+        <MediaElement x:Name="gameOverSound" HorizontalAlignment="Right" Height="114" Margin="0,0,-205,135" VerticalAlignment="Bottom" Width="110" Source="Pic/Sounds/GameOverEffect.mp3" LoadedBehavior="Manual" UnloadedBehavior="Stop"/>
+    </Grid>
+</Page>

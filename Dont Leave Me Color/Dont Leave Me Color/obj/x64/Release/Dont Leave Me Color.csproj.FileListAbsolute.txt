@@ -1,0 +1,63 @@
+E:\Work IT KMITL\Com Pro\Project\Dont Leave Me Color\Dont Leave Me Color\bin\x64\Release\Dont Leave Me Color.exe.config
+E:\Work IT KMITL\Com Pro\Project\Dont Leave Me Color\Dont Leave Me Color\bin\x64\Release\Pic\Sounds\Bell.wav
+E:\Work IT KMITL\Com Pro\Project\Dont Leave Me Color\Dont Leave Me Color\bin\x64\Release\Pic\Sounds\GameOverEffect.mp3
+E:\Work IT KMITL\Com Pro\Project\Dont Leave Me Color\Dont Leave Me Color\bin\x64\Release\Pic\Sounds\Pangya Music.mp3
+E:\Work IT KMITL\Com Pro\Project\Dont Leave Me Color\Dont Leave Me Color\bin\x64\Release\Dont Leave Me Color.exe.manifest
+E:\Work IT KMITL\Com Pro\Project\Dont Leave Me Color\Dont Leave Me Color\bin\x64\Release\Dont Leave Me Color.application
+E:\Work IT KMITL\Com Pro\Project\Dont Leave Me Color\Dont Leave Me Color\bin\x64\Release\Dont Leave Me Color.exe
+E:\Work IT KMITL\Com Pro\Project\Dont Leave Me Color\Dont Leave Me Color\bin\x64\Release\Dont Leave Me Color.pdb
+E:\Work IT KMITL\Com Pro\Project\Dont Leave Me Color\Dont Leave Me Color\bin\x64\Release\Microsoft.Expression.Drawing.dll
+E:\Work IT KMITL\Com Pro\Project\Dont Leave Me Color\Dont Leave Me Color\bin\x64\Release\Microsoft.Expression.Interactions.dll
+E:\Work IT KMITL\Com Pro\Project\Dont Leave Me Color\Dont Leave Me Color\bin\x64\Release\System.Windows.Interactivity.dll
+E:\Work IT KMITL\Com Pro\Project\Dont Leave Me Color\Dont Leave Me Color\bin\x64\Release\de\Microsoft.Expression.Drawing.resources.dll
+E:\Work IT KMITL\Com Pro\Project\Dont Leave Me Color\Dont Leave Me Color\bin\x64\Release\es\Microsoft.Expression.Drawing.resources.dll
+E:\Work IT KMITL\Com Pro\Project\Dont Leave Me Color\Dont Leave Me Color\bin\x64\Release\fr\Microsoft.Expression.Drawing.resources.dll
+E:\Work IT KMITL\Com Pro\Project\Dont Leave Me Color\Dont Leave Me Color\bin\x64\Release\it\Microsoft.Expression.Drawing.resources.dll
+E:\Work IT KMITL\Com Pro\Project\Dont Leave Me Color\Dont Leave Me Color\bin\x64\Release\ja\Microsoft.Expression.Drawing.resources.dll
+E:\Work IT KMITL\Com Pro\Project\Dont Leave Me Color\Dont Leave Me Color\bin\x64\Release\ko\Microsoft.Expression.Drawing.resources.dll
+E:\Work IT KMITL\Com Pro\Project\Dont Leave Me Color\Dont Leave Me Color\bin\x64\Release\ru\Microsoft.Expression.Drawing.resources.dll
+E:\Work IT KMITL\Com Pro\Project\Dont Leave Me Color\Dont Leave Me Color\bin\x64\Release\zh-Hans\Microsoft.Expression.Drawing.resources.dll
+E:\Work IT KMITL\Com Pro\Project\Dont Leave Me Color\Dont Leave Me Color\bin\x64\Release\zh-Hant\Microsoft.Expression.Drawing.resources.dll
+E:\Work IT KMITL\Com Pro\Project\Dont Leave Me Color\Dont Leave Me Color\bin\x64\Release\de\Microsoft.Expression.Interactions.resources.dll
+E:\Work IT KMITL\Com Pro\Project\Dont Leave Me Color\Dont Leave Me Color\bin\x64\Release\en\Microsoft.Expression.Interactions.resources.dll
+E:\Work IT KMITL\Com Pro\Project\Dont Leave Me Color\Dont Leave Me Color\bin\x64\Release\es\Microsoft.Expression.Interactions.resources.dll
+E:\Work IT KMITL\Com Pro\Project\Dont Leave Me Color\Dont Leave Me Color\bin\x64\Release\fr\Microsoft.Expression.Interactions.resources.dll
+E:\Work IT KMITL\Com Pro\Project\Dont Leave Me Color\Dont Leave Me Color\bin\x64\Release\it\Microsoft.Expression.Interactions.resources.dll
+E:\Work IT KMITL\Com Pro\Project\Dont Leave Me Color\Dont Leave Me Color\bin\x64\Release\ja\Microsoft.Expression.Interactions.resources.dll
+E:\Work IT KMITL\Com Pro\Project\Dont Leave Me Color\Dont Leave Me Color\bin\x64\Release\ko\Microsoft.Expression.Interactions.resources.dll
+E:\Work IT KMITL\Com Pro\Project\Dont Leave Me Color\Dont Leave Me Color\bin\x64\Release\ru\Microsoft.Expression.Interactions.resources.dll
+E:\Work IT KMITL\Com Pro\Project\Dont Leave Me Color\Dont Leave Me Color\bin\x64\Release\zh-Hans\Microsoft.Expression.Interactions.resources.dll
+E:\Work IT KMITL\Com Pro\Project\Dont Leave Me Color\Dont Leave Me Color\bin\x64\Release\zh-Hant\Microsoft.Expression.Interactions.resources.dll
+E:\Work IT KMITL\Com Pro\Project\Dont Leave Me Color\Dont Leave Me Color\bin\x64\Release\de\System.Windows.Interactivity.resources.dll
+E:\Work IT KMITL\Com Pro\Project\Dont Leave Me Color\Dont Leave Me Color\bin\x64\Release\en\System.Windows.Interactivity.resources.dll
+E:\Work IT KMITL\Com Pro\Project\Dont Leave Me Color\Dont Leave Me Color\bin\x64\Release\es\System.Windows.Interactivity.resources.dll
+E:\Work IT KMITL\Com Pro\Project\Dont Leave Me Color\Dont Leave Me Color\bin\x64\Release\fr\System.Windows.Interactivity.resources.dll
+E:\Work IT KMITL\Com Pro\Project\Dont Leave Me Color\Dont Leave Me Color\bin\x64\Release\it\System.Windows.Interactivity.resources.dll
+E:\Work IT KMITL\Com Pro\Project\Dont Leave Me Color\Dont Leave Me Color\bin\x64\Release\ja\System.Windows.Interactivity.resources.dll
+E:\Work IT KMITL\Com Pro\Project\Dont Leave Me Color\Dont Leave Me Color\bin\x64\Release\ko\System.Windows.Interactivity.resources.dll
+E:\Work IT KMITL\Com Pro\Project\Dont Leave Me Color\Dont Leave Me Color\bin\x64\Release\ru\System.Windows.Interactivity.resources.dll
+E:\Work IT KMITL\Com Pro\Project\Dont Leave Me Color\Dont Leave Me Color\bin\x64\Release\zh-Hans\System.Windows.Interactivity.resources.dll
+E:\Work IT KMITL\Com Pro\Project\Dont Leave Me Color\Dont Leave Me Color\bin\x64\Release\zh-Hant\System.Windows.Interactivity.resources.dll
+E:\Work IT KMITL\Com Pro\Project\Dont Leave Me Color\Dont Leave Me Color\obj\x64\Release\HowToPlay.g.cs
+E:\Work IT KMITL\Com Pro\Project\Dont Leave Me Color\Dont Leave Me Color\obj\x64\Release\MainMenu.g.cs
+E:\Work IT KMITL\Com Pro\Project\Dont Leave Me Color\Dont Leave Me Color\obj\x64\Release\MainPlay.g.cs
+E:\Work IT KMITL\Com Pro\Project\Dont Leave Me Color\Dont Leave Me Color\obj\x64\Release\MainWindow.g.cs
+E:\Work IT KMITL\Com Pro\Project\Dont Leave Me Color\Dont Leave Me Color\obj\x64\Release\tapControl.g.cs
+E:\Work IT KMITL\Com Pro\Project\Dont Leave Me Color\Dont Leave Me Color\obj\x64\Release\App.g.cs
+E:\Work IT KMITL\Com Pro\Project\Dont Leave Me Color\Dont Leave Me Color\obj\x64\Release\Dont Leave Me Color_Content.g.cs
+E:\Work IT KMITL\Com Pro\Project\Dont Leave Me Color\Dont Leave Me Color\obj\x64\Release\Dont Leave Me Color_MarkupCompile.cache
+E:\Work IT KMITL\Com Pro\Project\Dont Leave Me Color\Dont Leave Me Color\obj\x64\Release\Dont Leave Me Color_MarkupCompile.lref
+E:\Work IT KMITL\Com Pro\Project\Dont Leave Me Color\Dont Leave Me Color\obj\x64\Release\HowToPlay.baml
+E:\Work IT KMITL\Com Pro\Project\Dont Leave Me Color\Dont Leave Me Color\obj\x64\Release\MainMenu.baml
+E:\Work IT KMITL\Com Pro\Project\Dont Leave Me Color\Dont Leave Me Color\obj\x64\Release\MainPlay.baml
+E:\Work IT KMITL\Com Pro\Project\Dont Leave Me Color\Dont Leave Me Color\obj\x64\Release\MainWindow.baml
+E:\Work IT KMITL\Com Pro\Project\Dont Leave Me Color\Dont Leave Me Color\obj\x64\Release\tapControl.baml
+E:\Work IT KMITL\Com Pro\Project\Dont Leave Me Color\Dont Leave Me Color\obj\x64\Release\Dont Leave Me Color.g.resources
+E:\Work IT KMITL\Com Pro\Project\Dont Leave Me Color\Dont Leave Me Color\obj\x64\Release\Dont_Leave_Me_Color.Properties.Resources.resources
+E:\Work IT KMITL\Com Pro\Project\Dont Leave Me Color\Dont Leave Me Color\obj\x64\Release\Dont Leave Me Color.csproj.GenerateResource.Cache
+E:\Work IT KMITL\Com Pro\Project\Dont Leave Me Color\Dont Leave Me Color\obj\x64\Release\Dont Leave Me Color.TrustInfo.xml
+E:\Work IT KMITL\Com Pro\Project\Dont Leave Me Color\Dont Leave Me Color\obj\x64\Release\Dont Leave Me Color.exe.manifest
+E:\Work IT KMITL\Com Pro\Project\Dont Leave Me Color\Dont Leave Me Color\obj\x64\Release\Dont Leave Me Color.application
+E:\Work IT KMITL\Com Pro\Project\Dont Leave Me Color\Dont Leave Me Color\obj\x64\Release\Dont Leave Me Color.exe
+E:\Work IT KMITL\Com Pro\Project\Dont Leave Me Color\Dont Leave Me Color\obj\x64\Release\Dont Leave Me Color.pdb
+E:\Work IT KMITL\Com Pro\Project\Dont Leave Me Color\Dont Leave Me Color\obj\x64\Release\Dont Leave Me Color.csprojResolveAssemblyReference.cache
